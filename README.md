@@ -8,7 +8,7 @@ I'm interested in understanding how systems work, spotting suspicious activity, 
 
 ## Portfolio in progress
 
-**Authentication Detection Lab** is a Python starter project that looks for repeated failed logins and a successful login after several failures. It includes synthetic logs, automated tests, and notes on investigating alerts and recognizing false positives.
+**[Authentication Detection Lab](https://github.com/Tabassom98/security-detection-lab)** is a Python starter project that looks for repeated failed logins and a successful login after several failures. It includes synthetic logs, automated tests, and notes on investigating alerts and recognizing false positives.
 
 The lab was created with AI assistance as a learning project. It uses simulated activity rather than real incidents or production data.
 
