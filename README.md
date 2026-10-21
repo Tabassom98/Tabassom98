@@ -12,7 +12,13 @@ I'm interested in understanding how systems work, spotting suspicious activity, 
 
 **[SQL Security Investigations](https://github.com/Tabassom98/sql-security-investigations)** follows a simulated case from suspicious logins to resource access. It includes SQL queries, a reproducible SQLite lab, automated tests, and a report explaining what the evidence does and does not tell us.
 
-Both projects were created with AI assistance for learning. They use simulated activity rather than real incidents or production data.
+**[Network Connection Lab](https://github.com/Tabassom98/network-connection-lab)** investigates distinct-port activity and large transfers using synthetic connection logs.
+
+**[AI Tool Boundary Lab](https://github.com/Tabassom98/ai-tool-boundary-lab)** tests application-owned tool permissions using simulated AI actions and prompt-injection scenarios. It tests an authorization gate, not a live model.
+
+**[File Integrity Lab](https://github.com/Tabassom98/file-integrity-lab)** uses SHA-256 baselines to identify added, removed, and modified files in a local test directory.
+
+These five projects were created with AI assistance for learning. Their examples use synthetic data and harmless demo files rather than real incidents or production data.
 
 ## Focus areas
 
