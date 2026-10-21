@@ -10,7 +10,9 @@ I'm interested in understanding how systems work, spotting suspicious activity, 
 
 **[Authentication Detection Lab](https://github.com/Tabassom98/security-detection-lab)** is a Python starter project that looks for repeated failed logins and a successful login after several failures. It includes synthetic logs, automated tests, and notes on investigating alerts and recognizing false positives.
 
-The lab was created with AI assistance as a learning project. It uses simulated activity rather than real incidents or production data.
+**[SQL Security Investigations](https://github.com/Tabassom98/sql-security-investigations)** follows a simulated case from suspicious logins to resource access. It includes SQL queries, a reproducible SQLite lab, automated tests, and a report explaining what the evidence does and does not tell us.
+
+Both projects were created with AI assistance for learning. They use simulated activity rather than real incidents or production data.
 
 ## Focus areas
 
