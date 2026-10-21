@@ -18,7 +18,7 @@ I'm interested in understanding how systems work, spotting suspicious activity, 
 
 **[File Integrity Lab](https://github.com/Tabassom98/file-integrity-lab)** uses SHA-256 baselines to identify added, removed, and modified files in a local test directory.
 
-These five projects were created with AI assistance for learning. Their examples use synthetic data and harmless demo files rather than real incidents or production data.
+These projects use synthetic data and harmless demo files for learning and testing.
 
 ## Focus areas
 
