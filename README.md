@@ -1,31 +1,34 @@
-# Hello, I'm Tabassom Azmi
+# Hi, I'm Tabassom Azmi
 
-**Cybersecurity student at USF | Threat detection, network security, and AI security**
+**Cybersecurity student at the University of South Florida | Python & SQL | Detection engineering & AI application security**
 
-I'm studying cybersecurity at the University of South Florida and expect to graduate in December 2026. I'm looking for opportunities to start my career in security analysis and threat detection. Over time, I want to work in AI security engineering and help build safer AI systems.
+Expected graduation: **December 2026**. I'm seeking cybersecurity internships and entry-level opportunities in security analysis, threat detection, and software development, including full-time roles starting in 2027. My longer-term focus is AI security engineering.
 
-I'm interested in understanding how systems work, spotting suspicious activity, and explaining what the evidence actually shows. I'm building this portfolio as I learn, with projects that others can run and documentation that makes the results easy to follow.
+I use small, reproducible projects to practice turning security questions into code, testing the behavior, and explaining the evidence and its limits.
 
-## Portfolio in progress
+## Explore my work
 
-**[Authentication Detection Lab](https://github.com/Tabassom98/security-detection-lab)** is a Python starter project that looks for repeated failed logins and a successful login after several failures. It includes synthetic logs, automated tests, and notes on investigating alerts and recognizing false positives.
+| Project | What to review | Skills demonstrated |
+| --- | --- | --- |
+| [Authentication Detection Lab](https://github.com/Tabassom98/security-detection-lab) | Repeated login failures and success-after-failure rules with traceable alerts | Python, time-window correlation, JSONL validation, unit tests |
+| [SQL Security Investigations](https://github.com/Tabassom98/sql-security-investigations) | A simulated case linking suspicious logins to resource access | SQL, SQLite, joins, CTEs, parameter binding, evidence reporting |
+| [AI Tool Boundary Lab](https://github.com/Tabassom98/ai-tool-boundary-lab) | Application-owned authorization for proposed tool actions | Python, allowlists, threat modeling, deterministic security tests |
+| [Network Connection Lab](https://github.com/Tabassom98/network-connection-lab) | Distinct-port activity and transfer-volume findings | Python, network log analysis, input validation, investigation notes |
+| [File Integrity Lab](https://github.com/Tabassom98/file-integrity-lab) | SHA-256 baselines and added, removed, or modified file reports | Python CLI development, hashing, manifest validation, filesystem limits |
 
-**[SQL Security Investigations](https://github.com/Tabassom98/sql-security-investigations)** follows a simulated case from suspicious logins to resource access. It includes SQL queries, a reproducible SQLite lab, automated tests, and a report explaining what the evidence does and does not tell us.
+**Start with the detection lab for security analysis, the SQL lab for investigations, or the AI lab for application security.** Each repository includes run instructions, tests, and documented limitations.
 
-**[Network Connection Lab](https://github.com/Tabassom98/network-connection-lab)** investigates distinct-port activity and large transfers using synthetic connection logs.
+## How I approach projects
 
-**[AI Tool Boundary Lab](https://github.com/Tabassom98/ai-tool-boundary-lab)** tests application-owned tool permissions using simulated AI actions and prompt-injection scenarios. It tests an authorization gate, not a live model.
+- Define a specific security hypothesis and make findings traceable to source records.
+- Test expected behavior, invalid inputs, and boundary cases.
+- Explain alternative causes and distinguish suspicious patterns from proof of compromise.
+- Keep demos reproducible with Python's standard library and synthetic data.
 
-**[File Integrity Lab](https://github.com/Tabassom98/file-integrity-lab)** uses SHA-256 baselines to identify added, removed, and modified files in a local test directory.
+These are educational labs using synthetic records and harmless demo files. The AI lab tests a deterministic authorization gate with simulated actions; it does not evaluate a live model. The projects do not claim production security performance.
 
-These projects use synthetic data and harmless demo files for learning and testing.
+## What I'm developing next
 
-## Focus areas
+I'm deepening my Python, SQL, Linux, and networking foundations while learning how to investigate alerts and evaluate security boundaries in AI applications.
 
-- Python, Linux, networking, and log analysis.
-- Writing and testing detections, then understanding when they can be wrong.
-- Learning how AI applications can be attacked and how to evaluate their defenses.
-
-I'm interested in cybersecurity internships and entry-level opportunities, including full-time roles starting in 2027.
-
-[Connect on LinkedIn](https://www.linkedin.com/in/taazmi/)
+[Connect with me on LinkedIn](https://www.linkedin.com/in/taazmi/)
